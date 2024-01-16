@@ -55,8 +55,6 @@ systémov
 - b. Vytvárajúca iba dvojstupňovú inferenčnú sieť
 - c. Vyhľadávania vzťahov – medzi hodnotami atribútov a triedami
 v dátach
-- d. Použiteľná iba v znalostných systémoch schopných spracovávať
-neurčité informácie
 16. Algoritmus dopĺňania pravidiel pozostáva z nasledovných krokov:
 - a. Usporiadanie doplnkových pravidiel
 - b. Zoradenie podmienok podľa dôležitosti
@@ -67,13 +65,14 @@ neurčité informácie
 - a. Reprezentácia metaznalostí je zhodná s reprezentáciou znalostí,
 teda produkčných pravidiel
 - b. Metaznalosti sú znalosti o znalostiach
+- Metaznalost o neurcitosti
 18. Ktoré z nasledovných vlastností by ste priradili intenzionálnemu modelu
 spracovania neurčitosti?
 - a. Teoretická správnosť
 - b. Globálnosť
+- Distribucia neurcitosti  
 19. Ktoré typy uzlov inferenčnej siete môžu byť dotazovateľnými?
 - a. Medziľahlé
-- b. Koreňové
 - c. Listové
 20. Testovanie znalostných systémov v sebe zahŕňa nasledovné procesy:
 - a. Prijatie používateľom
@@ -93,8 +92,6 @@ pravdivé?
 implikácie sa významne nelíši od váhy zloženej z váh podkombinácii
 - c. Platná je implikácia vyskytujúca sa v dostatočnom počte trénovacích
 príkladov
-- d. Pravidlá, ktoré sa dajú odvodiť z iných axiomatických pravidiel, sa
-NEzaradia do bázy znalostí
 24. Ktoré z nasledovných možností predstavujú známe typy metaznalostí?
 - a. Ozmyslenie pravidiel
 - b. Zdôvodnenie architektúry systému
@@ -159,6 +156,7 @@ triedy v každom podpriestore
 - b. Uzly na ceste neexpandujú
 41. Expert používa znalostný systém preto, aby:
 - a. Zvýšil kvalitu vlastného riešenia
+- Ho ladil a modifikoval BZ
 42. Ktoré z nasledovných vlastností by ste priradili extenzionálnemu modelu
 spracovania neurčitosti?
 - a. Kombinačná funkcia
@@ -168,8 +166,6 @@ spracovania neurčitosti?
 jeho bezpečnosti?
 - a. Vysvetľovací modul
 - b. Používanie špeciálnych druhov znalostí
-- c. Používateľské rozhranie
-- d. Spoliehanie sa na ochranu operačného systému (Shell)
 - e. Používanie databáz
 44. Vymenujte kombinačné funkcie extenzionálneho modelu spracovania
 neurčitosti:
@@ -183,14 +179,11 @@ pravdivé?
 - a. Uvažujeme iba platné kombinácie založené na fundovanej implikácii
 - b. Pravidlá, ktoré sa dajú odvodiť z iných axiomatických pravidiel, sa
 nezaradia so bázy znalosti
-- c. Implikácia je odvoditeľná z podkombinácií, ak platnosť danej
-implikácie sa výrazne líši od váhy zloženej z váh podkombinácií
 46. Verifikácia znalostného systému je:
 - a. Testovanie formálnej správnosti (konzistentnosti a úplnosti)
 47. Ktoré z nasledovných psychologických faktorov sa hodnotia pri testovaní
 prijatia používateľom?
 - a. Ľahkosť učenia
-- b. Riadenie konzultácie
 - c. Stupeň úsilia
 48. Aké typy reprezentácie neurčitosti poznáte?
 - a. Numerická
@@ -210,6 +203,7 @@ trénovacích príkladov?
 - a. Získal riešenie daného problému
 53. Báza znalostí obsahuje:
 - a. Predmetné (doménové) znalosti
+- Konkretne znalosti
 54. Ktoré z nasledovných funkcií a operácií predstavujú paralelnú kombináciu
 v rámci spracovania neurčitosti?
 - a. Funkcia GLOB
@@ -225,8 +219,6 @@ metaznalosťami
 - c. Ľahký prenos znalostí
 57. Repertoárová sieť je:
 - a. Určená na generovanie pravidiel v tvare: ak konštrukt, potom pojem
-- b. Založená na numerickom hodnotení miery príslušnosti pojmu ku
-konštruktu (?)
 - c. Navrhnutá psychológom Georgeom Kellym
 58. Pri získavaní znalostí strojovým učením vytvára bázu znalostí:
 - a. Iba znalostný inžinier
